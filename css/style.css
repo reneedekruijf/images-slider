@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-gap: 5px; */
+  justify-items: stretch;
+}
+
+.slide {
+}
+
+img {
+  width: 100%;
+  /* width: 500px; */
+}
+
+.slide__first {
+  /* grid-row: 1 / 1; */
+}
+
+.slide__second {
+  grid-row: 1;
+}
+
+.slide__third {
+}
+
+.controls {
+}
+
+.controls__left {
+}
+
+.controls__right {
+}
